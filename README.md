@@ -29,7 +29,16 @@ Columns: `Month`, `AustralianPort`, `ForeignPort`, `Country`, and in/out/total
 measures for `Passengers`, `Freight_(tonnes)` and `Mail_(tonnes)`, plus `Year`
 and `Month_num`.
 
-Source: Kaggle — *International Airlines Traffic by City Pairs*.
+**This is aviation data, not sea freight.** Despite the column name
+`AustralianPort`, these are Australian *airports* — the list includes Canberra
+and Toowoomba Wellcamp, both inland, and Wellcamp carries freight with zero
+passengers, which is an air-cargo-only signature. Destinations include landlocked
+cities (Ankara, Astana, Almaty, Abuja) and the trans-Pacific air-cargo hub
+Anchorage.
+
+Source: Australian Government **BITRE** *International Airline Activity* —
+city-pairs series, published as passengers, freight and mail by city pair.
+Redistributed on Kaggle as *International Airlines Traffic by City Pairs*.
 
 ## What the analysis does
 
